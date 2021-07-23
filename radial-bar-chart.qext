@@ -1,0 +1,16 @@
+{
+	"name": "Radial Bar Chart",
+	"description": "Radial Bar Chart extension using Amcharts js library",
+	"type": "visualization",
+	"version": "1.0.0",
+	"icon": "extension",
+	"author": "Vighneh Gawad",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "https://github.com/vighneshh/radial-bar-chart",
+	"preview": "logo.png",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
