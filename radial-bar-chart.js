@@ -68,7 +68,7 @@ define( ["qlik","jquery","css!./style.css","core","charts", "animated","./about"
 								items: {
 										CustomMinMax: {
 											type: "boolean",
-											label: "Custom Min/Max",
+											label: "Custom ValueAxis Min/Max",
 											ref: "CustomMinMax",
 											defaultValue: false
 										},
@@ -85,7 +85,7 @@ define( ["qlik","jquery","css!./style.css","core","charts", "animated","./about"
 											type: "number",
 											label: "Max",
 											ref: "valueMax",
-											defaultValue: 60,
+											defaultValue: 500,
 											show: function(d) {
 												return d.CustomMinMax
 											}
@@ -268,7 +268,7 @@ define( ["qlik","jquery","css!./style.css","core","charts", "animated","./about"
 				var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
 				valueAxis.tooltip.disabled = true;
 				valueAxis.renderer.labels.template.horizontalCenter = "left";
-				// Added custom min and max
+				// Added custom min and max for valueaxis
 				valueAxis.min = layout.valueMin;
 				valueAxis.max = layout.valueMax;
 				valueAxis.strictMinMax = true;
