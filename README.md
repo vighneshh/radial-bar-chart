@@ -8,7 +8,7 @@ Please rate & give feedback! If you want to contribute feel free to message me o
 
 
 #### Chart Custom Settings
-## Path to custom settings: Appearance > Chart Custom Settings
+#### Path to custom settings: Appearance > Chart Custom Settings
 - Custom ValueAxis Min/Max : Checkbox to enable add custom Min and max valueAxis.
 - Min : Set Minimum value for value axis (default value = 0).
 - Max : Set Maximum value for value axis (default value = 500).
